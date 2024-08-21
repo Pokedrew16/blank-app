@@ -8,7 +8,7 @@ weight = st.text_input("Enter your weight(kg): ")
 height = st.text_input("Enter your height(m): ")
 
 bmi = (weight / (height)**2)
-
-st.write(
+if st.button('Click me'):
+    st.write(
     "Your BMI is {bmi}."
 )
