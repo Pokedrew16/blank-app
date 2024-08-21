@@ -1,6 +1,14 @@
 import streamlit as st
 
-st.title("🎈 My new app")
+st.title("🎈 BMI calculator")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "Welcome to the BMI calculator."
+)
+weight = st.text_input("Enter your weight(kg): ")
+height = st.text_input("Enter your height(m): ")
+
+bmi = (weight / (height)**2)
+
+st.write(
+    "Your BMI is {bmi}."
 )
