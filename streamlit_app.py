@@ -11,7 +11,7 @@ if st.button('Click me'):
     if weight == "" or height == "":
         st.write("Please enter your height and weight.")
     else:
-         bmi = weight / ((height)*(height))
+         bmi = float(weight) / (float(height)*float(height))
     st.write(
     "Your BMI is {bmi}."
 )
