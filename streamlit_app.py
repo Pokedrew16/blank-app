@@ -9,7 +9,7 @@ height = st.text_input("Enter your height(m): ")
 
 if st.button('Click me'):
     if weight == "" or height == "":
-        st.write("Please enter your height and weight."
+        st.write("Please enter your height and weight.")
     else:
          bmi = weight / (height ** 2)
     st.write(
