@@ -13,5 +13,5 @@ if st.button('Click me'):
     else:
          bmi = float(weight) / (float(height)*float(height))
     st.write(
-    "Your BMI is {bmi}."
+    f"Your BMI is {bmi}."
 )
