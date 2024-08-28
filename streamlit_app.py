@@ -18,7 +18,7 @@ while True:
 
 
     
-    choice = st.text_input("What dice do you need.")
+    choice = st.text_input("What dice do you want to use.")
     if st.button('Attack'):
         if dict[choice] <= 3:
             st.write("Dealt {dict[choice]} dmg")
