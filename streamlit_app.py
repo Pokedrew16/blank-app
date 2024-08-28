@@ -6,7 +6,7 @@ st.write(
     "Welcome to the BMI calculator."
 )
 Bhp = 100
-while True:
+def game():
     d1 = random.randint(1,6)
     d2 = random.randint(1,6)
     d3 = random.randint(1,6)
@@ -23,13 +23,17 @@ while True:
         if dict[choice] <= 3:
             st.write(f"Dealt {dict[choice]} dmg")
             Bhp += -dict[choice]
-
+            game()
         elif dict[choice] >= 4:
             chance = random.randint(0,1)
             if chance == 0:
                 st.write("The attack missed and you dealt no dmg")
+                game()
             elif chance == 1:
                 st.write(f"Dealt {dict[choice] ^ 1.5} dmg")
+                game()
+game()
+
 
 
 
