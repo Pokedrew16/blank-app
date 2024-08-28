@@ -13,7 +13,7 @@ def game():
 
     dict = {"d1": d1, "d2": d2, "d3": d3}
     
-    st.write(f"Boss Health = {Bhp}")      
+    st.write(f"Boss Health = {Bhp}")   
     st.write(f"Availble dice: {d1}, {d2}, {d3}")
 
 
