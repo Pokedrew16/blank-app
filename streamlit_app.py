@@ -21,7 +21,7 @@ while True:
     choice = st.text_input("What dice do you want to use.")
     if st.button('Attack'):
         if dict[choice] <= 3:
-            st.write("Dealt {dict[choice]} dmg")
+            st.write(f"Dealt {dict[choice]} dmg")
             Bhp += -dict[choice]
 
         elif dict[choice] >= 4:
@@ -29,7 +29,7 @@ while True:
             if chance == 0:
                 st.write("The attack missed and you dealt no dmg")
             elif chance == 1:
-                st.write("Dealt {dict[choice] ^ 1.5} dmg")
+                st.write(f"Dealt {dict[choice] ^ 1.5} dmg")
 
 
 
