@@ -7,9 +7,9 @@ st.write(
 )
 Bhp = 100
 while True:
-    d1 = randint(1,6)
-    d2 = randint(1,6)
-    d3 = randint(1,6)
+    d1 = random.randint(1,6)
+    d2 = random.randint(1,6)
+    d3 = random.randint(1,6)
 
     dict = {"d1": d1, "d2": d2, "d3": d3}
     
@@ -25,7 +25,7 @@ while True:
             Bhp += -dict[choice]
 
         elif dict[choice] >= 4:
-            chance = randint(0,1)
+            chance = random.randint(0,1)
             if chance == 0:
                 st.write("The attack missed and you dealt no dmg")
             elif chance == 1:
