@@ -5,7 +5,7 @@ image = st.camera_input("Take a photo")
 
 if image is not None:
   bytes_data = image.getvalue()
-  st.write(type(bytes_data))
+  st.write(bytes_data)
 
 
 
