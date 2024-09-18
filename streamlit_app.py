@@ -1,5 +1,5 @@
 import streamlit as st
-import numpy
+import numpy as np
 import random
 st.title("♻️ Welcome to our responsible helper app ✅")
 image = st.camera_input("Take a photo")
