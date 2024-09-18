@@ -8,7 +8,7 @@ if image is not None:
   bytes_data = image.getvalue()
   st.image(bytes_data)
   loat_array = np.frombuffer(bytes_data, dtype=np.float32)
-  print(loat_array)
+  st.write(loat_array)
 
 
 
