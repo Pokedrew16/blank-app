@@ -5,7 +5,7 @@ st.title("♻️ Welcome to our responsible helper app ✅")
 image = st.camera_input("Take a photo")
 
 v = 10
-st.write("v")
+st.write(v)
 if image is not None:
   bytes_data = image.getvalue()
   st.image(bytes_data)
