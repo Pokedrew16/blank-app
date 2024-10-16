@@ -13,7 +13,7 @@ image = st.camera_input("Take a photo")
 if image is not None:
     bytes_data = image.getvalue()
     st.image(bytes_data)
-    float_arr = np.astype(np.array(bytes_data), dtype = np.dtype(float))
+    float_arr = np.array(bytes_data).astype(dtype = float)
 
 
 
