@@ -9,12 +9,13 @@ import time
 
 st.title("♻️ Welcome to our responsible helper app ✅")
 image = st.camera_input("Take a photo")
-#bytes_data = st.session_state['image'].getvalue()
-#st.image(bytes_data)
-#float_array = np.frombuffer(bytes_data, dtype=np.float32)/255.0
-#st.write(float_array)
+if image is not None:
+    time.sleep(3)
+    bytes_data = st.session_state['image'].getvalue()
+    st.image(bytes_data)
+    float_array = np.frombuffer(bytes_data, dtype=np.float32)/255.0
+    st.write(float_array)
 
-st.write(image is None)
 
 
 
