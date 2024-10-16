@@ -17,7 +17,7 @@ if image is not None:
         float_array = np.frombuffer(bytes_data, dtype=np.float32)/255.0
         st.write(float_array)
         st.session_state['frameTemp'] = 0
-  st.session_state['frameTemp'] += 1
+    st.session_state['frameTemp'] += 1
 
 st.write(st.session_state['frameTemp'])
   
