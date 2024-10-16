@@ -4,11 +4,10 @@ import random
 import time
 
 
-if 'count' not in st.session_state:
+if 'image' not in st.session_state:
     st.session_state['image'] = None
 
 st.title("♻️ Welcome to our responsible helper app ✅")
-
 if st.session_state['image'] is None:
     st.session_state['image'] = st.camera_input("Take a photo")
 else:
