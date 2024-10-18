@@ -17,7 +17,7 @@ if image is not None:
     st.image(bytes_data)
     float_arr = np.array(list(bytes_data)).astype(dtype = np.float32)
     st.write(float_arr[len(float_arr) >> 1])
-    resnet50(weights=None)
+    st.write(type(resnet50(weights=None)))
 
 
 
