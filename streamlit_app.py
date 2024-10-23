@@ -9,7 +9,7 @@ st.title("♻️ Welcome to our responsible helper app ✅")
 image = st.camera_input("Take a photo")
 arr = ir.load_database()
 for i in arr:
-    st.write(i.name)
+    st.write(i.link)
   
 
 #if image is not None:
