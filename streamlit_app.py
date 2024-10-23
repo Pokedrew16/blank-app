@@ -1,7 +1,5 @@
-import tensorflow as tf
+import image_rec as ir
 import streamlit as st
-import numpy as np
-import random
 import time
 
 #if 'image' not in st.session_state:
@@ -9,9 +7,7 @@ import time
 
 st.title("♻️ Welcome to our responsible helper app ✅")
 image = st.camera_input("Take a photo")
-with open("./data/helloworld.txt", "r") as file:
-  message = file.read()
-st.write(message)
+st.write(ir.load_database())
   
 
 #if image is not None:
