@@ -11,7 +11,7 @@ st.title("♻️ Welcome to our responsible helper app ✅")
 image = st.camera_input("Take a photo")
 with open("./data/helloworld.txt", "r") as file:
   message = file.read()
-  st.write(message)
+st.write(message)
   
 
 #if image is not None:
