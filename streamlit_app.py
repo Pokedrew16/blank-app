@@ -15,7 +15,7 @@ if 'temp_img' not in st.session_state:
 if image is not None:
     st.session_state['temp_img'] = ir.to_numpy_img_conventional_axes(image)
 elif 'temp_img' in st.session_state:
-    st.image(ir.display_numpy_img_conventional_axes(st.session_state['temp_img']))
+    ir.display_numpy_img_conventional_axes(st.session_state['temp_img'])
 
 
 
