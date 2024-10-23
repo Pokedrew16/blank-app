@@ -12,7 +12,7 @@ image = st.camera_input("Take a photo")
 
 if image is not None:
     if 'temp_img' not in st.session_state:
-        pil_img = Image.open(img)
+        pil_img = Image.open(image)
         array = np.array(pil_img)
         st.session_state['temp_img'] = array
 elif 'temp_img' in st.session_state:
