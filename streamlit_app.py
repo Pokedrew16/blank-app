@@ -15,10 +15,12 @@ st.title("♻️ Welcome to our responsible helper app ✅")
 image = st.camera_input("Take a photo")
 
 if image is not None:
-    st.title("Temp")
     temp = ir.to_numpy_img_conventional_axes(image)
     ir.run_over_all_pixels_np(invert_colour, temp)
     ir.display_numpy_img_conventional_axes(temp)
+
+    for i in st.session_state['database']:
+        i.display()
 
 
 

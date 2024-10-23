@@ -11,6 +11,12 @@ class Item:
         self.link = link_v
         self.image_name = img_v
 
+    def display(self):
+        st.header("Result:")
+        st.subheader("Name: " + self.name)
+        st.image("./data/" + self.image_name)
+        st.caption("This product may be bought online at: " + self.link)
+
 def load_database():
     item_arr = []
     with open("./data/database.txt", "r") as file:
