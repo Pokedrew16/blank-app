@@ -9,7 +9,10 @@ import time
 
 st.title("♻️ Welcome to our responsible helper app ✅")
 image = st.camera_input("Take a photo")
-st.write("./data/helloworld.txt")
+with open("./data/helloworld.txt", "r") as file:
+  message = file.read()
+  st.write(message)
+  
 
 #if image is not None:
 #    bytes_data = image.getvalue()
