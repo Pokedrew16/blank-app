@@ -10,10 +10,9 @@ class Item:
 
 def load_database():
     item_arr = []
-    with open("./data/helloworld.txt", "r") as file:
+    with open("./data/database.txt", "r") as file:
         strs = file.readlines()
         for s in strs:
             entry_arr = s.split(",")
             item_arr.append(Item(entry_arr[0].strip(), entry_arr[1].strip(), entry_arr[2].strip()))
     return item_arr
-
