@@ -20,11 +20,16 @@ def load_database():
             item_arr.append(Item(entry_arr[0].strip(), entry_arr[1].strip(), entry_arr[2].strip()))
     return item_arr
 
-def process_img(img):
+def to_numpy_img_conventional_axes(img):
     if 'temp_img' not in st.session_state:
-        array = np.array(Image.open(img))
-        (height, width, channel) = array.shape
+        array = np.array(Image.open(img)).transpose((1,0,2))
+        (width, height, channel) = array.shape
         for x in range(0, width):
             for y in range(0, height):
-                array[y, x, 0] = 0.0
-        st.session_state['temp_img'] = array
+                array[x, y, 0] = 0.0
+        return array
+    else:
+        return None
+
+def display_numpy_img_conventional_axes(np_arr):
+    st.image(np_arr.transpose((1,0,2)))
