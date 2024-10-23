@@ -12,13 +12,13 @@ st.title("♻️ Welcome to our responsible helper app ✅")
 if 'temp_img' not in st.session_state:
     image = st.camera_input("Take a photo")
 
-if image is not None:
-    if ('temp_img' not in st.session_state):
+if ('temp_img' not in st.session_state):
+    if image is not None:
         st.session_state['temp_img'] = ir.to_numpy_img_conventional_axes(image)
-    else:
-        ir.display_numpy_img_conventional_axes(st.session_state['temp_img'])
 else:
-    st.session_state['temp_img'] = None
+    ir.display_numpy_img_conventional_axes(st.session_state['temp_img'])
+    if image is None:
+        st.session_state['temp_img'] = None
 
 
 
