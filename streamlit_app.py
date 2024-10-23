@@ -18,7 +18,7 @@ if image is not None:
         bytes_data = float_arr.astype(dtype = np.dtype('B')).tobytes()
         st.session_state['temp_img'] = bytes_data
     else:
-        st.image(st.session_state['temp_img'])
+        st.write(type(st.session_state['temp_img']))
 
 
 
