@@ -14,6 +14,8 @@ if 'database' not in st.session_state:
 st.title("♻️ Welcome to our responsible helper app ✅")
 image = st.camera_input("Take a photo")
 
+st.write('temp_img' not in st.session_state)
+
 if 'temp_img' not in st.session_state:
     if image is not None:
         st.session_state['temp_img'] = ir.run_over_all_pixels_np(invert_colour, ir.to_numpy_img_conventional_axes(image))
