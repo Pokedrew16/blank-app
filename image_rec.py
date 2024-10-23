@@ -23,6 +23,7 @@ def load_database():
 def process_img(img):
     if 'temp_img' not in st.session_state:
         array = np.array(Image.open(img))
+        st.write(array.shape)
         (count, width, height, channel) = array.shape
         for x in range(0, width):
             for y in range(0, height):
