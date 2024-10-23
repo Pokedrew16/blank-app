@@ -1,6 +1,9 @@
 import tensorflow as tf
 import streamlit as st
 import numpy as np
+
+from keras.models import load_model  # TensorFlow is required for Keras to work
+from PIL import Image, ImageOps  # Install pillow instead of PIL
     
 class Item:
     def __init__(self, name_v = "None", link_v = "www.amazon.com/", img_v = "none.png"):
