@@ -12,7 +12,7 @@ image = st.camera_input("Take a photo")
 if image is not None:
     process_img(image)
 elif 'temp_img' in st.session_state:
-    st.write(st.session_state['temp_img'])
+    st.image(st.session_state['temp_img'])
 
 
 
