@@ -21,15 +21,13 @@ def load_database():
     return item_arr
 
 def to_numpy_img_conventional_axes(img):
-    if 'temp_img' not in st.session_state:
-        array = np.array(Image.open(img)).transpose((1,0,2))
-        (width, height, channel) = array.shape
-        for x in range(0, width):
-            for y in range(0, height):
-                array[x, y, 0] = 0.0
-        return array
-    else:
-        return None
+    return np.array(Image.open(img)).transpose((1,0,2)) if (img is not None) else None
+
+def run_over_all_pixels_np(func, np_arr):
+    (width, height, channel) = np_arr.shape
+    for x in range(width):
+        for y in range(height):
+            func(np_arr, width, height)
 
 def display_numpy_img_conventional_axes(np_arr):
     st.image(np_arr.transpose((1,0,2)))
