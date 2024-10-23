@@ -1,5 +1,4 @@
-import torchvision as tv
-from torchvision.models import resnet50, ResNet50_Weights
+import tensorflow as tf
 import streamlit as st
 import numpy as np
 import random
