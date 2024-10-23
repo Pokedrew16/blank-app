@@ -22,6 +22,7 @@ if st.session_state['temp_img'] is None:
     if image is not None:
         st.write("test2")
         st.session_state['temp_img'] = ir.run_over_all_pixels_np(invert_colour, ir.to_numpy_img_conventional_axes(image))
+        ir.display_numpy_img_conventional_axes(st.session_state['temp_img'])
 else:
     if image is None:
         st.write("test3")
