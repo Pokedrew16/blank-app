@@ -1,2 +1,2 @@
-Egg, www.amazon.com/, egg.png
-Pancake, www.amazon.com/, pancake.png
+Eggs, www.amazon.com/, egg.png
+Pancakes, www.amazon.com/, pancake.png
