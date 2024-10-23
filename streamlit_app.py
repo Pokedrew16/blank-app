@@ -3,8 +3,6 @@ import streamlit as st
 import numpy as np
 import time
 
-image = None
-
 def invert_colour(np_arr, x, y):
     np_arr[x,y,0] = 1.0 - np_arr[x,y,0];
     np_arr[x,y,1] = 1.0 - np_arr[x,y,1];
@@ -12,10 +10,9 @@ def invert_colour(np_arr, x, y):
 
 if 'database' not in st.session_state:
     st.session_state['database'] = ir.load_database()
-st.title("♻️ Welcome to our responsible helper app ✅")
 
-if 'temp_img' not in st.session_state:
-    image = st.camera_input("Take a photo")
+st.title("♻️ Welcome to our responsible helper app ✅")
+image = st.camera_input("Take a photo")
 
 if ('temp_img' not in st.session_state):
     if image is not None:
