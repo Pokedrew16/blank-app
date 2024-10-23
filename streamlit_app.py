@@ -5,7 +5,6 @@ import numpy as np
 import random
 import time
 
-
 #if 'image' not in st.session_state:
 #    st.session_state['image'] = None
 
