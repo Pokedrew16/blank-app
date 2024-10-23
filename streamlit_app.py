@@ -2,15 +2,11 @@ import image_rec as ir
 import streamlit as st
 import time
 
-#if 'image' not in st.session_state:
-#    st.session_state['image'] = None
+if 'database' not in st.session_state:
+    st.session_state['database'] = ir.load_database()
 
 st.title("♻️ Welcome to our responsible helper app ✅")
 image = st.camera_input("Take a photo")
-arr = ir.load_database()
-for i in arr:
-    st.write(i.link)
-  
 
 #if image is not None:
 #    bytes_data = image.getvalue()
