@@ -27,7 +27,7 @@ def run_over_all_pixels_np(func, np_arr):
     (width, height, channel) = np_arr.shape
     for x in range(width):
         for y in range(height):
-            func(np_arr, width, height)
+            func(np_arr, x, y)
 
 def display_numpy_img_conventional_axes(np_arr):
     st.image(np_arr.transpose((1,0,2)))
