@@ -26,5 +26,5 @@ def process_img(img):
         (height, width, channel) = array.shape
         for x in range(0, width):
             for y in range(0, height):
-                array[0, y, x, 0] = 0.0
+                array[y, x, 0] = 0.0
         st.session_state['temp_img'] = array
