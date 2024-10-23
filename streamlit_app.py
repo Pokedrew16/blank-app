@@ -10,7 +10,7 @@ st.title("♻️ Welcome to our responsible helper app ✅")
 image = st.camera_input("Take a photo")
 
 if image is not None:
-    ir,process_img(image)
+    ir.process_img(image)
 elif 'temp_img' in st.session_state:
     st.image(st.session_state['temp_img'])
 
