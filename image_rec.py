@@ -22,6 +22,5 @@ def load_database():
 
 def process_img(img):
     if 'temp_img' not in st.session_state:
-        pil_img = Image.open(img)
-        array = np.array(pil_img)
+        array = np.array(Image.open(img))
         st.session_state['temp_img'] = array
