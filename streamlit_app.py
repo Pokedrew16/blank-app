@@ -7,7 +7,9 @@ import time
 
 st.title("♻️ Welcome to our responsible helper app ✅")
 image = st.camera_input("Take a photo")
-st.write(ir.load_database())
+arr = ir.load_database()
+for i in arr:
+    st.write(i.name)
   
 
 #if image is not None:
