@@ -10,11 +10,14 @@ def invert_colour(np_arr, x, y):
 
 if 'database' not in st.session_state:
     st.session_state['database'] = ir.load_database()
+    
+if 'temp_img' not in st.session_state:
+    st.session_state['temp_img'] = None
 
 st.title("♻️ Welcome to our responsible helper app ✅")
 image = st.camera_input("Take a photo")
 
-if 'temp_img' not in st.session_state:
+if st.session_state['temp_img'] is None:
     st.write("test")
     if image is not None:
         st.write("test2")
