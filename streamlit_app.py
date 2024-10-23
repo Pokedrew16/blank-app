@@ -1,5 +1,6 @@
 import image_rec as ir
 import streamlit as st
+import numpy as np
 import time
 
 if 'database' not in st.session_state:
