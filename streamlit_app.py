@@ -10,26 +10,13 @@ def invert_colour(np_arr, x, y):
 
 if 'database' not in st.session_state:
     st.session_state['database'] = ir.load_database()
-    
-if 'temp_img' not in st.session_state:
-    st.session_state['temp_img'] = None
 
 st.title("♻️ Welcome to our responsible helper app ✅")
 image = st.camera_input("Take a photo")
 
-if st.session_state['temp_img'] is None:
-    st.write("test")
-    if image is not None:
-        st.write("test2")
-        st.session_state['temp_img'] = ir.run_over_all_pixels_np(invert_colour, ir.to_numpy_img_conventional_axes(image))
-        ir.display_numpy_img_conventional_axes(st.session_state['temp_img'])
-else:
-    if image is None:
-        st.write("test3")
-        st.session_state['temp_img'] = None
-    else:
-        st.write("test4")
-        ir.display_numpy_img_conventional_axes(st.session_state['temp_img'])
+if image is not None:
+    temp = ir.run_over_all_pixels_np(invert_colour, ir.to_numpy_img_conventional_axes(image))
+    ir.display_numpy_img_conventional_axes(temp)
 
 
 
