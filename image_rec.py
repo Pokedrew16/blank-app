@@ -24,6 +24,9 @@ def to_numpy_img_conventional_axes(img):
     return np.array(Image.open(img)).transpose((1,0,2)) if (img is not None) else None
 
 def run_over_all_pixels_np(func, np_arr):
+    if (np_arr is None):
+        return
+
     (width, height, channel) = np_arr.shape
     for x in range(width):
         for y in range(height):
