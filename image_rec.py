@@ -19,3 +19,9 @@ def load_database():
             entry_arr = s.split(",")
             item_arr.append(Item(entry_arr[0].strip(), entry_arr[1].strip(), entry_arr[2].strip()))
     return item_arr
+
+def process_img(img):
+    if 'temp_img' not in st.session_state:
+        pil_img = Image.open(img)
+        array = np.array(pil_img)
+        st.session_state['temp_img'] = array
