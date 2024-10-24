@@ -14,7 +14,7 @@ image = st.camera_input("Take a photo")
 if image is not None:
     (pr,cd) = ir.prediction(st.session_state['model'], id.to_model_img(image))
     (st.session_state['database'])[pr].display()
-    st.write("Prediction Confidence: " + "{:1.4f}".format(cd))
+    st.write("Prediction Confidence: " + "{:3.2f}".format(cd * 100.0) + "%")
 
 
 
