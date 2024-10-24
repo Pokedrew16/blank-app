@@ -6,3 +6,11 @@ from keras.models import load_model  # TensorFlow is required for Keras to work
 from PIL import Image, ImageOps  # Install pillow instead of PIL
     
 # insert functions
+
+def load_model_from_database():
+    return load_model("./data/model.h5", compile = False)
+
+def prediction(model, img_dat):
+    confidences = model.predict(img_dat)
+    predicted = np.argmax(confidences)
+    return (predicted, confidences[predicted])
