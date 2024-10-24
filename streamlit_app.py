@@ -12,7 +12,7 @@ st.title("♻️ Welcome to our responsible helper app ✅")
 image = st.camera_input("Take a photo")
 
 if image is not None:
-    (pr,cd) = prediction(st.session_state['model'], id.to_model_img(image))
+    (pr,cd) = ir.prediction(st.session_state['model'], id.to_model_img(image))
     (st.session_state['database'])[pr].display()
 
 
