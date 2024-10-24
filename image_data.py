@@ -8,10 +8,10 @@ class Item:
         self.link = link_v
         self.image_name = img_v
 
-    def display(self):
+    def display(self, additional_info = ""):
         st.subheader("Common Name: " + self.name)
         st.image("./data/" + self.image_name)
-        st.caption("This product may be bought online at: " + self.link)
+        st.caption("This product may be bought online at: " + self.link + ((", " + additional_info) if (additional_info != "") else ""))
 
 def load_database():
     item_arr = []
