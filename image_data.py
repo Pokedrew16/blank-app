@@ -22,13 +22,14 @@ def load_database():
             item_arr.append(Item(entry_arr[0].strip(), entry_arr[1].strip(), entry_arr[2].strip()))
     return item_arr
 
-def to_numpy_img_normalized(img):
+def to_model_img(img):
     if img is None:
         return None
     img = Image.open(img)
     img = ImageOps.fit(img, (224,224), Image.Resampling.LANCZOS)
-    return np.array(img).reshape((1, 224, 224, 3)).astype(np.float32) / 255.0
+    img = np.array(img).reshape((1, 224, 224, 3)).astype(np.float32)
+    return (img / 127.5) - 1.0
 
-def display_numpy_img_normalized(np_arr):
+def display_model_img(np_arr):
     if (np_arr is not None):
-        st.image(np_arr.reshape((224, 224, 3)))
+        st.image(np_arr.reshape((224, 224, 3)) * .5 + .5)
