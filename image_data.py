@@ -27,8 +27,8 @@ def to_numpy_img(img):
         return None
     img = Image.open(img)
     img = ImageOps.fit(img, (224,224), Image.Resampling.LANCZOS)
-    return np.array(img).reshape(shape = (1, 224, 224, 3))
+    return np.array(img).reshape((1, 224, 224, 3))
 
 def display_numpy_img(np_arr):
     if (np_arr is not None):
-        st.image(np_arr.reshape(shape = (224, 224, 3)))
+        st.image(np_arr.reshape((224, 224, 3)))
