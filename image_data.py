@@ -27,7 +27,7 @@ def to_numpy_img_normalized(img):
         return None
     img = Image.open(img)
     img = ImageOps.fit(img, (224,224), Image.Resampling.LANCZOS)
-    return np.array(img).reshape((1, 224, 224, 3)).astype(np.float32)
+    return np.array(img).reshape((1, 224, 224, 3)).astype(np.float32) / 255.0
 
 def display_numpy_img_normalized(np_arr):
     if (np_arr is not None):
