@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-from PIL import Image
+from PIL import Image, ImageOps
     
 class Item:
     def __init__(self, name_v = "None", link_v = "www.amazon.com/", img_v = "none.png"):
@@ -22,17 +22,13 @@ def load_database():
             item_arr.append(Item(entry_arr[0].strip(), entry_arr[1].strip(), entry_arr[2].strip()))
     return item_arr
 
-def to_numpy_img_conventional_axes(img):
-    return np.array(Image.open(img)).transpose((1,0,2)) if (img is not None) else None
+def to_numpy_img(img):
+    if img is None:
+        return None
+    img = Image.open(img)
+    img = ImageOps.fit(img, (224,224), Image.Resampling.LANCZOS)
+    return np.array(img).reshape(shape = (1, 224, 224, 3))
 
-def run_over_all_pixels_np(func, np_arr_inout):
-    if (np_arr_inout is None):
-        return
-
-    (width, height, channel) = np_arr_inout.shape
-    for x in range(width):
-        for y in range(height):
-            func(np_arr_inout, x, y)
-
-def display_numpy_img_conventional_axes(np_arr):
-    st.image(np_arr.transpose((1,0,2)))
+def display_numpy_img(np_arr):
+    if (np_arr is not None):
+        st.image(np_arr.reshape(shape = (224, 224, 3)))
