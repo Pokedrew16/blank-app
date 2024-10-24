@@ -11,7 +11,7 @@ class Item:
     def display(self, additional_info = ""):
         st.subheader("Common Name: " + self.name)
         st.image("./data/" + self.image_name)
-        st.caption("This product may be bought online at: " + self.link + ((", " + additional_info) if (additional_info != "") else ""))
+        st.caption("This product may be bought online at: " + self.link + ((", " + additional_info) if (additional_info is not "") else ""))
 
 def load_database():
     item_arr = []
