@@ -10,8 +10,7 @@ st.title("♻️ Welcome to our responsible helper app ✅")
 image = st.camera_input("Take a photo")
 
 if image is not None:
-    temp = id.to_numpy_img(image)
-    id.display_numpy_img(temp)
+    id.display_numpy_img(id.to_numpy_img(image))
 
     for i in st.session_state['database']:
         i.display()
