@@ -13,4 +13,4 @@ def load_model_from_database():
 def prediction(model, img_dat):
     confidences = model.predict(img_dat)
     predicted = np.argmax(confidences)
-    return (predicted, confidences[predicted])
+    return (predicted, confidences[0][predicted])
