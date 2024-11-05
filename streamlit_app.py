@@ -14,11 +14,12 @@ st.title("♻️ Welcome to our responsible helper app ✅")
 image = st.camera_input("Take a photo")
 
 if image is not None:
-    pr = st.session_state['database'][0]
-    cd = [0.0] * len(pr)
-    (pr[0], cd[0]) = ir.prediction(st.session_state['containers_model'], id.to_model_img(image))
-    (pr[1], cd[1]) = ir.prediction(st.session_state['tech_accessories_model'], id.to_model_img(image))
-    (pr[2], cd[2]) = ir.prediction(st.session_state['tech_parts_model'], id.to_model_img(image))
+    pr = [0] * len(st.session_state['database'][0]); cd = [0.0] * len(pr); image = id.to_model_img(image);
+    (pr[0], cd[0]) = ir.prediction(st.session_state['containers_model'], image)
+    (pr[1], cd[1]) = ir.prediction(st.session_state['tech_accessories_model'], image)
+    (pr[2], cd[2]) = ir.prediction(st.session_state['tech_parts_model'], image)
+
+    st.write(pr);
 
     no_detection = True
     for i in range(len(pr)): # check if all classified as "random"
