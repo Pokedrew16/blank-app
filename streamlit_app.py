@@ -19,7 +19,7 @@ if image is not None:
     (pr[1], cd[1]) = ir.prediction(st.session_state['tech_accessories_model'], image)
     (pr[2], cd[2]) = ir.prediction(st.session_state['tech_parts_model'], image)
 
-    st.write(pr);
+    st.write(pr[0]);
 
     no_detection = True
     for i in range(len(pr)): # check if all classified as "random"
