@@ -2,13 +2,11 @@ import tensorflow as tf
 import image_data as id
 import numpy as np
 
-from keras.models import load_model  # TensorFlow is required for Keras to work
-from PIL import Image, ImageOps  # Install pillow instead of PIL
+from keras.models import load_model
+from PIL import Image, ImageOps
     
-# insert functions
-
-def load_model_from_database():
-    return load_model("./data/keras_model.h5", compile=False)
+def load_model_from_database(model_name):
+    return load_model("./data/" + model_name + ".h5", compile=False)
 
 def prediction(model, img_dat):
     confidences = model.predict(img_dat)

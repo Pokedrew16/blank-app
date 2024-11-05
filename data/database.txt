@@ -1,2 +1,29 @@
-Eggs, www.amazon.com/, egg.png
-Pancakes, www.amazon.com/, pancake.png
+15,5,8
+Spray Paint, www.amazon.com/, test.png
+Aluminium Can, www.amazon.com/, test.png
+Soda Can, www.amazon.com/, test.png
+Cardboard Packaging, www.amazon.com/, test.png
+Glass Bottle, www.amazon.com/, test.png
+Cosmetic Product, www.amazon.com/, test.png
+Glass Jar, www.amazon.com/, test.png
+Paper Cup, www.amazon.com/, test.png
+Plastic Container, www.amazon.com/, test.png
+Plastic Soda Bottle, www.amazon.com/, test.png
+Plastic Shopping Bag, www.amazon.com/, test.png
+Plastic Trash Bag, www.amazon.com/, test.png
+Plastic Water Bottle, www.amazon.com/, test.png
+Styrofoam Cup, www.amazon.com/, test.png
+Styrofoam Container, www.amazon.com/, test.png
+USB Cable, www.amazon.com/, test.png
+Headphone Cable, www.amazon.com/, test.png
+HDMI Cable, www.amazon.com/, test.png
+Earphones, www.amazon.com/, test.png
+Power plug, www.amazon.com/, test.png
+Camera, www.amazon.com/, test.png
+Keyboard, www.amazon.com/, test.png
+(Smart-)phone, www.amazon.com/, test.png
+Printer, www.amazon.com/, test.png
+Printer Ink/Toner, www.amazon.com/, test.png
+TV/Monitor, www.amazon.com/, test.png
+(Smart-)watch, www.amazon.com/, test.png
+Mouse, www.amazon.com/, test.png
