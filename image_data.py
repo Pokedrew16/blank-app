@@ -18,7 +18,7 @@ def load_database():
     with open("./data/database.txt", "r") as file:
         strs = file.readlines(); temp = strs.pop().split(","); copy = []
         for i in temp:
-            copy.append(int(temp[i]))
+            copy.append(int(i))
         item_arr.append(copy)
         for s in strs:
             entry_arr = s.split(",")
