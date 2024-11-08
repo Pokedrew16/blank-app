@@ -14,7 +14,7 @@ class Item:
         if self.message is not "":
             st.subheader(self.message)
         st.image("./data/" + self.image_name)
-        st.caption("This product may be bought online at: " + self.link)
+        st.caption("A product of this category may be bought online at: " + self.link)
 
 def load_database():
     item_arr = []
