@@ -1,4 +1,4 @@
-15,5,8
+15,5,9
 Spray Paint,, www.amazon.com/, test.png
 Aluminium Can,, www.amazon.com/, test.png
 Soda Can,, www.amazon.com/, test.png
@@ -27,3 +27,4 @@ Printer Ink/Toner,, www.amazon.com/, test.png
 TV/Monitor,, www.amazon.com/, test.png
 (Smart-)watch,, www.amazon.com/, test.png
 Mouse,, www.amazon.com/, test.png
+Laptop,, www.amazon.com/, test.png
