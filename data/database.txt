@@ -15,10 +15,12 @@ Plastic Water Bottle,, www.amazon.com/, test.png
 Styrofoam Cup,, www.amazon.com/, test.png
 Styrofoam Container,, www.amazon.com/, test.png
 USB Cable,, www.amazon.com/Maeline-Charging-Durable-Android-Charger/dp/B07Q6HT22Q, usb_cable.jpg
-Headphone Cable,, www.amazon.sg/UGREEN-Headphone-Extension-Compatible-Smartphones/dp/B00LM4ON3I, headphone_cable.jpg
+Audio Cable,, www.amazon.sg/UGREEN-Headphone-Extension-Compatible-Smartphones/dp/B00LM4ON3I, headphone_cable.jpg
 HDMI Cable,, www.amazon.com/, test.png
 Earphones,, www.amazon.com/, test.png
 Power plug,, www.amazon.com/, test.png
+Headphones,, www.amazon.com/, test.png
+Microphone,, www.amazon.com/, test.png
 Camera,, www.amazon.com/, test.png
 Keyboard,, www.amazon.com/, test.png
 (Smart-)phone,, www.amazon.com/, test.png
