@@ -13,8 +13,10 @@ st.title("♻️ Welcome to our responsible helper app ✅")
 image = st.camera_input("Take a photo")
 
 if image is not None:
-    image = id.to_model_img(image);
-    (pr, cd) = ir.prediction(st.session_state['master_model'], image)
+    image = id.to_model_img(image); 
+    pr = len(st.session_state['database']); cd = 0.0;
+    if image is not None:
+        (pr, cd) = ir.prediction(st.session_state['master_model'], image)
 
     if len(st.session_state['database']) == pr:
         st.subheader("No object detected. Try again.");
