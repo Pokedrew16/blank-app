@@ -15,17 +15,17 @@ Styrofoam Cup,, www.amazon.com/, test.png
 Styrofoam Container,, www.amazon.com/, test.png
 USB Cable,, www.amazon.com/Maeline-Charging-Durable-Android-Charger/dp/B07Q6HT22Q, usb_cable.jpg
 Audio Cable,, www.amazon.sg/UGREEN-Headphone-Extension-Compatible-Smartphones/dp/B00LM4ON3I, headphone_cable.jpg
-HDMI Cable,, www.amazon.com/, test.png
-Earphones,, www.amazon.com/, test.png
-Power plug,, www.amazon.com/, test.png
-Headphones,, www.amazon.com/, test.png
-Microphone,, www.amazon.com/, test.png
-Camera,, www.amazon.com/, test.png
-Keyboard,, www.amazon.com/, test.png
-(Smart-)phone,, www.amazon.com/, test.png
-Printer,, www.amazon.com/, test.png
-Printer Ink/Toner,, www.amazon.com/, test.png
-TV/Monitor,, www.amazon.com/, test.png
-(Smart-)watch,, www.amazon.com/, test.png
-Mouse,, www.amazon.com/, test.png
-Laptop,, www.amazon.com/, test.png
+HDMI Cable,, www.amazon.com/AmazonBasics-High-Speed-HDMI-Cable-Black/dp/B08BS181P2, test.png
+Earphones,, www.amazon.com/sephia-SP3060-Earbuds-Lightweight-Tangle-Free/dp/B0170RBJ9Q, test.png
+Power plug,, www.amazon.com/EXTRASTAR-Outlets-Extension-Mountable-Charging/dp/B083ZCD6FW, test.png
+Headphones,, www.amazon.com/Cancelling-Headphones-Playtime-Bluetooth-Microphone/dp/B0BVRJXH27, test.png
+Microphone,, www.amazon.com/Movo-UM700-Microphone-Adjustable-Streaming/dp/B081TR5D9M, test.png
+Camera,, www.amazon.com/Canon-Rebel-T7-18-55mm-II/dp/B07C2Z21X5, test.png
+Keyboard,, www.amazon.com/AmazonBasics-Matte-Keyboard-QWERTY-Layout/dp/B07WJ5D3H4www.amazon.com/, test.png
+(Smart-)phone,, www.amazon.com/Motorola-Unlocked-128GB-MPCamera-163-94x74-98x8-39/dp/B0C2SWQBMB, test.png
+Printer,, www.amazon.com/HP-Smart-Tank-5000-Wireless-Ink-Tank/dp/B0CC7TVR2F, test.png
+Printer Ink/Toner,, www.amazon.com/WORDGIFT-Remanufactured-Replacement-275XL-276XL/dp/B0DDLDJR2R, test.png
+TV/Monitor,, www.amazon.com/Amazon-Basics-Monitor-Compatible-Speakers/dp/B0CP7RZRMD, test.png
+(Smart-)watch,, www.amazon.com/SAMSUNG-Bluetooth-Smartwatch-Personalized-Advanced/dp/B0C797946T, test.png
+Mouse,, www.amazon.com/Wireless-YOOSO-Computer-Adjustable-Ergonomic/dp/B094QH5MWN, test.png
+Laptop,, www.amazon.com/A315-24P-R7VH-Display-Quad-Core-Processor-Graphics/dp/B0BS4BP8FB, test.png
