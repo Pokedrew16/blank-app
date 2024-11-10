@@ -19,10 +19,7 @@ class Item:
 def load_database():
     item_arr = []
     with open("./data/database.txt", "r") as file:
-        strs = file.readlines(); temp = strs.pop(0).split(","); copy = []
-        for i in temp:
-            copy.append(int(i))
-        item_arr.append(copy)
+        strs = file.readlines()
         for s in strs:
             entry_arr = s.split(",")
             item_arr.append(Item(entry_arr[0].strip(), entry_arr[1].strip(), entry_arr[2].strip(), entry_arr[3].strip()))
