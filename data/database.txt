@@ -21,7 +21,7 @@ Power plug,, www.amazon.com/EXTRASTAR-Outlets-Extension-Mountable-Charging/dp/B0
 Headphones,, www.amazon.com/Cancelling-Headphones-Playtime-Bluetooth-Microphone/dp/B0BVRJXH27, test.png
 Microphone,, www.amazon.com/Movo-UM700-Microphone-Adjustable-Streaming/dp/B081TR5D9M, test.png
 Camera,, www.amazon.com/Canon-Rebel-T7-18-55mm-II/dp/B07C2Z21X5, test.png
-Keyboard,, www.amazon.com/AmazonBasics-Matte-Keyboard-QWERTY-Layout/dp/B07WJ5D3H4www.amazon.com/, test.png
+Keyboard,, www.amazon.com/AmazonBasics-Matte-Keyboard-QWERTY-Layout/dp/B07WJ5D3H4, test.png
 (Smart-)phone,, www.amazon.com/Motorola-Unlocked-128GB-MPCamera-163-94x74-98x8-39/dp/B0C2SWQBMB, test.png
 Printer,, www.amazon.com/HP-Smart-Tank-5000-Wireless-Ink-Tank/dp/B0CC7TVR2F, test.png
 Printer Ink/Toner,, www.amazon.com/WORDGIFT-Remanufactured-Replacement-275XL-276XL/dp/B0DDLDJR2R, test.png
