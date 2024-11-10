@@ -9,7 +9,7 @@ if 'database' not in st.session_state:
 if 'master_model' not in st.session_state:
     st.session_state['master_model'] = ir.load_model_from_database("master")
 
-st.title("♻️ Welcome to our responsible helper app ✅")
+st.title("♻️ Welcome to ScanSuggest! Take a photo and a corresponding alternative will be provided.")
 image = st.camera_input("Take a photo")
 
 if image is not None:
