@@ -1,14 +1,14 @@
-Spray Paint,, www.amazon.com/, test.png
-Food Can,, www.amazon.com/, test.png
-Soda Can,, www.amazon.com/, test.png
-Cardboard Packaging,, www.amazon.com/, test.png
-Glass Bottle,, www.amazon.com/, test.png
-Cosmetic Product,, www.amazon.com/, test.png
-Glass Jar,, www.amazon.com/, test.png
-Paper Cup,, www.amazon.com/, test.png
-Plastic Container,, www.amazon.com/, test.png
-Plastic Soda Bottle,, www.amazon.com/, test.png
-Plastic Shopping Bag,, www.amazon.com/, test.png
+Spray Paint,, www.amazon.com/Rust-Oleum-RUSTOLEUM-280129-Deere-Yellow/dp/B07JZXJ9GL, test.png
+Food Can,, www.amazon.com/Amazon-Fresh-Canned-Mixed-Vegetables/dp/B0BZJPD422, test.png
+Soda Can,, www.amazon.com/European-Fanta-Orange-Soda-6-Pack/dp/B0BNZH5LTF, test.png
+Cardboard Packaging,, www.amazon.com/PARTNERS-10-Corrugated-Cardboard-Packaging-Wholesale/dp/B01D46A76S, test.png
+Glass Bottle,, www.amazon.com/Mexican-Coke-Fiesta-Glass-Bottles/dp/B01CP6ROH8, test.png
+Cosmetic Product,, www.amazon.com/RUIGEQIJI-Glossy-Smoothing-Serum-Smooth/dp/B0C6FR1PHN, test.png
+Glass Jar,, www.amazon.com/Pack-Airtight-Fermenting-Dishwasher-Kitchentoolz/dp/B07FXBPTTQ , test.png
+Paper Cup,, www.amazon.com/AmazonBasics-oz-Paper-Hot-000-Count/dp/B0753SSPKB, test.png
+Plastic Container,, www.amazon.com/Sterilite-16428012-Quart-Liter-Storage/dp/B002BDTETW, test.png
+Plastic Soda Bottle,, www.amazon.com/Mtn-Dew-20-Fl-Pack/dp/B09ZYQYTDY, test.png
+Plastic Shopping Bag,, www.amazon.com/bags-Disposable-Restaurants-Convenience-Supermarket/dp/B0CFJY1FGX, test.png
 Plastic Trash Bag,, www.amazon.com/EDI-Heavy-Duty-45-Gallon-Capacity-16-Micron/dp/B091D9KN29, test.png
 Plastic Water Bottle,, www.amazon.com/Nalgene-Sustain-BPA-Free-Material-Derived/dp/B09LMP8NB2/, test.png
 Styrofoam Cup,, www.amazon.com/Axe-Sickle-Disposable-Beverage-Drinking/dp/B0CDM45LLM, test.png
