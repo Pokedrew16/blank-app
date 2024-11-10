@@ -9,10 +9,10 @@ Paper Cup,, www.amazon.com/, test.png
 Plastic Container,, www.amazon.com/, test.png
 Plastic Soda Bottle,, www.amazon.com/, test.png
 Plastic Shopping Bag,, www.amazon.com/, test.png
-Plastic Trash Bag,, www.amazon.com/, test.png
-Plastic Water Bottle,, www.amazon.com/, test.png
-Styrofoam Cup,, www.amazon.com/, test.png
-Styrofoam Container,, www.amazon.com/, test.png
+Plastic Trash Bag,, www.amazon.com/EDI-Heavy-Duty-45-Gallon-Capacity-16-Micron/dp/B091D9KN29, test.png
+Plastic Water Bottle,, www.amazon.com/Nalgene-Sustain-BPA-Free-Material-Derived/dp/B09LMP8NB2/, test.png
+Styrofoam Cup,, www.amazon.com/Axe-Sickle-Disposable-Beverage-Drinking/dp/B0CDM45LLM, test.png
+Styrofoam Container,, www.amazon.com/Dart-85HT3R-Perforated-Hinged-Container/dp/B004NG8B7Q, test.png
 USB Cable,, www.amazon.com/Maeline-Charging-Durable-Android-Charger/dp/B07Q6HT22Q, usb_cable.jpg
 Audio Cable,, www.amazon.sg/UGREEN-Headphone-Extension-Compatible-Smartphones/dp/B00LM4ON3I, headphone_cable.jpg
 HDMI Cable,, www.amazon.com/AmazonBasics-High-Speed-HDMI-Cable-Black/dp/B08BS181P2, test.png
