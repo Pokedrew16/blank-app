@@ -1,6 +1,6 @@
-15,5,9
+15,7,9
 Spray Paint,, www.amazon.com/, test.png
-Aluminium Can,, www.amazon.com/, test.png
+Food Can,, www.amazon.com/, test.png
 Soda Can,, www.amazon.com/, test.png
 Cardboard Packaging,, www.amazon.com/, test.png
 Glass Bottle,, www.amazon.com/, test.png
