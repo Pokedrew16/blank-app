@@ -11,7 +11,7 @@ Plastic Soda Bottle,, www.amazon.com/Mtn-Dew-20-Fl-Pack/dp/B09ZYQYTDY, plastic_s
 Plastic Shopping Bag, A more environmentally-friendly alternative may be the following:, www.amazon.com/Wholesale-Reusable-Shopping-Painting-Embroidery/dp/B0CPB1CFC4, plastic_shopping_bag.png
 Plastic Trash Bag,, www.amazon.com/EDI-Heavy-Duty-45-Gallon-Capacity-16-Micron/dp/B091D9KN29, plastic_trash_bag.png
 Plastic Water Bottle,, www.amazon.com/Nalgene-Sustain-BPA-Free-Material-Derived/dp/B09LMP8NB2/, plastic_water_bottle.jpeg
-Styrofoam Cup,, www.amazon.com/Axe-Sickle-Disposable-Beverage-Drinking/dp/B0CDM45LLM, styrofoam_cup.png
+Styrofoam Cup,, www.amazon.com/Axe-Sickle-Disposable-Beverage-Drinking/dp/B0CDM45LLM, styrofoam_cup.jpg
 Styrofoam Container,, www.amazon.com/Dart-85HT3R-Perforated-Hinged-Container/dp/B004NG8B7Q, styrofoam_container.png
 USB Cable,, www.amazon.com/Maeline-Charging-Durable-Android-Charger/dp/B07Q6HT22Q, usb_cable.jpg
 Audio Cable,, www.amazon.sg/UGREEN-Headphone-Extension-Compatible-Smartphones/dp/B00LM4ON3I, headphone_cable.jpg
@@ -24,8 +24,8 @@ Camera,, www.amazon.com/Canon-Rebel-T7-18-55mm-II/dp/B07C2Z21X5, camera.png
 Keyboard,, www.amazon.com/AmazonBasics-Matte-Keyboard-QWERTY-Layout/dp/B07WJ5D3H4, keyboard.png
 (Smart-)phone,, www.amazon.com/Motorola-Unlocked-128GB-MPCamera-163-94x74-98x8-39/dp/B0C2SWQBMB, smart_phone.png
 Printer,, www.amazon.com/HP-Smart-Tank-5000-Wireless-Ink-Tank/dp/B0CC7TVR2F, printer.png
-Printer Ink/Toner,, www.amazon.com/WORDGIFT-Remanufactured-Replacement-275XL-276XL/dp/B0DDLDJR2R, printer_ink.jpeg
-TV/Monitor,, www.amazon.com/Amazon-Basics-Monitor-Compatible-Speakers/dp/B0CP7RZRMD, moniter.png
+Printer Ink/Toner,, www.amazon.com/WORDGIFT-Remanufactured-Replacement-275XL-276XL/dp/B0DDLDJR2R, printer_ink.jpg
+TV/Monitor,, www.amazon.com/Amazon-Basics-Monitor-Compatible-Speakers/dp/B0CP7RZRMD, monitor.png
 (Smart-)watch,, www.amazon.com/SAMSUNG-Bluetooth-Smartwatch-Personalized-Advanced/dp/B0C797946T, smart_watch.png
 Mouse,, www.amazon.com/Wireless-YOOSO-Computer-Adjustable-Ergonomic/dp/B094QH5MWN, mouse.png
 Laptop,, www.amazon.com/A315-24P-R7VH-Display-Quad-Core-Processor-Graphics/dp/B0BS4BP8FB, laptop.png
